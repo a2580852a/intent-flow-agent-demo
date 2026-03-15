@@ -1,0 +1,837 @@
+[
+  {
+    "id": "1093e8c3-47ba-4590-bee7-77ef0085dbe8",
+    "request": "请帮我办理员工入职：姓名韩梅梅，证件号110101199003074562，入职日期2026-03-26，部门财务中心，办公地深圳，直属经理王敏，邮箱hanmeimei@company.com，需要门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 1,
+      "matchedKeywords": [
+        "入职",
+        "员工",
+        "办入职",
+        "账号开通"
+      ],
+      "reasoning": "用户明确提到“办理员工入职”，并提供了姓名、证件号、入职日期、部门、办公地、直属经理、邮箱及门禁需求，完全匹配“员工入职办理”场景。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:17:27.175Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "韩梅梅",
+        "idCard": "110101199003074562",
+        "startDate": "2026-03-28",
+        "department": "财务中心",
+        "location": "上海",
+        "manager": "王敏",
+        "email": "hanmeimei@company.com",
+        "equipmentNeeded": "门禁、笔记本、显示器"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [
+      {
+        "id": "28a8b537-cbfa-4396-9e09-fa622a32d6b1",
+        "source": "user",
+        "status": "needs_attention",
+        "message": "用户提交表格修订，系统更新字段：入职日期、办公地、设备需求。",
+        "createdAt": "2026-03-15T10:17:27.581Z"
+      }
+    ],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "韩梅梅",
+      "idCard": "110101199003074562",
+      "startDate": "2026-03-28",
+      "department": "财务中心",
+      "location": "上海",
+      "manager": "王敏",
+      "email": "hanmeimei@company.com",
+      "equipmentNeeded": "门禁、笔记本、显示器"
+    },
+    "createdAt": "2026-03-15T10:17:27.175Z",
+    "updatedAt": "2026-03-15T10:17:27.581Z"
+  },
+  {
+    "id": "c24ddd6a-408d-49b9-bd87-e5fde80fa4e9",
+    "request": "请帮我办理员工入职：姓名韩梅梅，证件号110101199003074562，入职日期2026-03-26，部门财务中心，办公地深圳，直属经理王敏，邮箱hanmeimei@company.com，需要门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 1,
+      "matchedKeywords": [
+        "入职",
+        "办入职",
+        "员工",
+        "账号开通"
+      ],
+      "reasoning": "用户明确提到“办理员工入职”并提供了姓名、证件号、入职日期、部门、办公地、直属经理、邮箱及门禁需求，完全命中“员工入职办理”场景的所有关键词与字段。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:16:30.352Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "韩梅梅",
+        "idCard": "110101199003074562",
+        "startDate": "2026-03-26",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "hanmeimei@company.com",
+        "equipmentNeeded": "门禁"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "韩梅梅",
+      "idCard": "110101199003074562",
+      "startDate": "2026-03-26",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "hanmeimei@company.com",
+      "equipmentNeeded": "门禁"
+    },
+    "createdAt": "2026-03-15T10:16:30.352Z",
+    "updatedAt": "2026-03-15T10:16:30.352Z"
+  },
+  {
+    "id": "315bf561-c2c7-4cd1-85b8-52c776b1818f",
+    "request": "请帮我办理员工入职：姓名片儿川，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_backend",
+    "planning": {
+      "confidence": 0.98,
+      "matchedKeywords": [
+        "入职",
+        "新员工",
+        "办入职"
+      ],
+      "reasoning": "用户明确提到“办理员工入职”，并提供了姓名、证件号、入职日期、部门、办公地、直属经理、邮箱及设备需求，完全匹配“员工入职办理”场景的所有字段。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:11:19.629Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "片儿川",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": "笔记本和门禁"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [
+      {
+        "id": "4baf2c49-ff35-48e7-b07e-54a6f0ce19f4",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T10:11:22.703Z"
+      }
+    ],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "片儿川",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": "笔记本和门禁"
+    },
+    "createdAt": "2026-03-15T10:11:19.629Z",
+    "updatedAt": "2026-03-15T10:11:22.703Z"
+  },
+  {
+    "id": "0ed939d9-bc4e-42ef-89f8-4706868f123b",
+    "request": "请帮我办理员工入职：姓名张三，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_backend",
+    "planning": {
+      "confidence": 1,
+      "matchedKeywords": [
+        "入职",
+        "新员工",
+        "办入职"
+      ],
+      "reasoning": "用户明确提到“办理员工入职”并提供了姓名、证件号、入职日期、部门、办公地、直属经理、邮箱及设备需求，完全匹配 entry_scene 场景定义与字段要求。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:10:59.785Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "张三",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": "笔记本和门禁"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [
+      {
+        "id": "61dae868-cd44-4918-88b5-f940e3cb17d4",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T10:11:05.364Z"
+      }
+    ],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "张三",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": "笔记本和门禁"
+    },
+    "createdAt": "2026-03-15T10:10:59.785Z",
+    "updatedAt": "2026-03-15T10:11:05.364Z"
+  },
+  {
+    "id": "a10fe6ef-88a8-4e02-b7b4-2e6d93532e25",
+    "request": "请帮我办理员工入职：姓名李雷，证件号110101199003074561，入职日期2026-03-25，部门财务中心，办公地上海，直属经理王敏，邮箱lilei@company.com，需要门禁和笔记本。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 1,
+      "matchedKeywords": [
+        "入职",
+        "新员工",
+        "办入职"
+      ],
+      "reasoning": "用户明确提到“办理员工入职”，并提供了姓名、证件号、入职日期、部门、办公地、直属经理、邮箱及设备需求，完全匹配entry_scene的字段与关键词。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:09:57.992Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "李雷",
+        "idCard": "110101199003074561",
+        "startDate": "2026-03-25",
+        "department": "财务中心",
+        "location": "上海",
+        "manager": "王敏",
+        "email": "lilei@company.com",
+        "equipmentNeeded": "门禁和笔记本"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "李雷",
+      "idCard": "110101199003074561",
+      "startDate": "2026-03-25",
+      "department": "财务中心",
+      "location": "上海",
+      "manager": "王敏",
+      "email": "lilei@company.com",
+      "equipmentNeeded": "门禁和笔记本"
+    },
+    "createdAt": "2026-03-15T10:09:57.992Z",
+    "updatedAt": "2026-03-15T10:09:57.992Z"
+  },
+  {
+    "id": "069da19b-7529-42e0-94af-0b58c3607a09",
+    "request": "请帮我办理员工入职：姓名张三，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 0.7,
+      "matchedKeywords": [
+        "入职"
+      ],
+      "reasoning": "检测到关键词 入职，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:03:31.069Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "张三",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@.com",
+        "equipmentNeeded": ""
+      },
+      "missingFields": [],
+      "completionRate": 88
+    },
+    "userFeedback": [],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "张三",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@.com",
+      "equipmentNeeded": ""
+    },
+    "createdAt": "2026-03-15T10:03:31.069Z",
+    "updatedAt": "2026-03-15T10:03:31.069Z"
+  },
+  {
+    "id": "fae423d1-f3c2-4a4b-8b10-2246c0683c56",
+    "request": "请帮我办理员工入职：姓名tiya，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 0.7,
+      "matchedKeywords": [
+        "入职"
+      ],
+      "reasoning": "检测到关键词 入职，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T10:00:43.150Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "tiya",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": ""
+      },
+      "missingFields": [],
+      "completionRate": 88
+    },
+    "userFeedback": [
+      {
+        "id": "e0765ba5-b8fd-44ed-a67b-5a81dc9e6531",
+        "source": "user",
+        "status": "needs_attention",
+        "message": "用户提交修订意见，系统更新字段：未识别到具体字段。",
+        "createdAt": "2026-03-15T10:02:33.256Z"
+      },
+      {
+        "id": "62042162-efd4-4897-99c5-a7a1bb87d17b",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T10:02:32.708Z"
+      },
+      {
+        "id": "f5c618e5-1c7e-4003-887e-8e350b24088c",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T10:01:12.514Z"
+      }
+    ],
+    "backendFeedback": [
+      {
+        "id": "04ffbb9e-c6ec-46d4-8d3c-ee84f80b0975",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "身份唯一性校验未通过：证件号尾号命中了重复样本库，请人工复核或改用新员工证件号。",
+        "createdAt": "2026-03-15T10:01:13.764Z"
+      },
+      {
+        "id": "03979029-fa64-4bc9-9e26-ac758de4de45",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "权限范围校验预警：财务中心默认在上海开通高敏权限，当前办公地需要额外审批。",
+        "createdAt": "2026-03-15T10:01:13.764Z"
+      },
+      {
+        "id": "86deea22-ea8e-4283-8036-66b7c22a2e80",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "工位库存校验提示：目标日期前的工位已接近满载，建议延后入职时间或切换办公地。",
+        "createdAt": "2026-03-15T10:01:13.764Z"
+      },
+      {
+        "id": "70b9fb19-fc78-443a-8f96-28bb17f8abc2",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "身份唯一性校验未通过：证件号尾号命中了重复样本库，请人工复核或改用新员工证件号。",
+        "createdAt": "2026-03-15T10:01:04.757Z"
+      },
+      {
+        "id": "d3a523dd-afa8-413b-9800-a3ea4815aa57",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "权限范围校验预警：财务中心默认在上海开通高敏权限，当前办公地需要额外审批。",
+        "createdAt": "2026-03-15T10:01:04.757Z"
+      },
+      {
+        "id": "98e7373e-8a18-42df-a47c-a938951ace9a",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "工位库存校验提示：目标日期前的工位已接近满载，建议延后入职时间或切换办公地。",
+        "createdAt": "2026-03-15T10:01:04.757Z"
+      }
+    ],
+    "schemaFinal": {
+      "employeeName": "tiya",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": ""
+    },
+    "createdAt": "2026-03-15T10:00:43.150Z",
+    "updatedAt": "2026-03-15T10:02:33.256Z"
+  },
+  {
+    "id": "4677a56f-7ef8-4a2c-b708-6a5abd6b1654",
+    "request": "请帮我办理员工入职：姓名皮森，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_backend",
+    "planning": {
+      "confidence": 0.7,
+      "matchedKeywords": [
+        "入职"
+      ],
+      "reasoning": "检测到关键词 入职，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T09:59:31.976Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "皮森",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": ""
+      },
+      "missingFields": [],
+      "completionRate": 88
+    },
+    "userFeedback": [
+      {
+        "id": "79a6f8a2-f22d-41fe-945b-1a17df016a55",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T09:59:52.188Z"
+      },
+      {
+        "id": "bbb4c728-2b0d-4aa4-b583-7e12df79df3a",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T09:59:48.778Z"
+      },
+      {
+        "id": "b7ce0bcf-c9ae-4548-a1db-d757982fa2c9",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T09:59:44.487Z"
+      }
+    ],
+    "backendFeedback": [
+      {
+        "id": "cf48fd0b-1d7c-4922-9bb8-4ffad59ce9b8",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "身份唯一性校验未通过：证件号尾号命中了重复样本库，请人工复核或改用新员工证件号。",
+        "createdAt": "2026-03-15T09:59:45.873Z"
+      },
+      {
+        "id": "0a3e5518-d3ec-48f7-b00c-a8eb363aa5a4",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "权限范围校验预警：财务中心默认在上海开通高敏权限，当前办公地需要额外审批。",
+        "createdAt": "2026-03-15T09:59:45.873Z"
+      },
+      {
+        "id": "f1533b5f-4738-46c5-b58d-d6f4fbeaabd5",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "工位库存校验提示：目标日期前的工位已接近满载，建议延后入职时间或切换办公地。",
+        "createdAt": "2026-03-15T09:59:45.873Z"
+      }
+    ],
+    "schemaFinal": {
+      "employeeName": "皮森",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": ""
+    },
+    "createdAt": "2026-03-15T09:59:31.976Z",
+    "updatedAt": "2026-03-15T09:59:52.189Z"
+  },
+  {
+    "id": "85be98d9-a1f2-48e4-bce8-2c0c641e43a9",
+    "request": "请帮我办理员工入职：姓名张三，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 0.7,
+      "matchedKeywords": [
+        "入职"
+      ],
+      "reasoning": "检测到关键词 入职，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T09:59:24.866Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "张三",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": ""
+      },
+      "missingFields": [],
+      "completionRate": 88
+    },
+    "userFeedback": [],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "张三",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": ""
+    },
+    "createdAt": "2026-03-15T09:59:24.866Z",
+    "updatedAt": "2026-03-15T09:59:24.866Z"
+  },
+  {
+    "id": "e32f8ca0-12cb-4bbd-9fee-2f590f1e912c",
+    "request": "请帮我办理员工入职：姓名张三，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 0.7,
+      "matchedKeywords": [
+        "入职"
+      ],
+      "reasoning": "检测到关键词 入职，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T09:59:17.337Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "张三",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": ""
+      },
+      "missingFields": [],
+      "completionRate": 88
+    },
+    "userFeedback": [],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "张三",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": ""
+    },
+    "createdAt": "2026-03-15T09:59:17.337Z",
+    "updatedAt": "2026-03-15T09:59:17.337Z"
+  },
+  {
+    "id": "f54866ad-558c-44d7-b3ef-52740afaf90c",
+    "request": "请帮我办理员工入职：姓名张三，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 0.7,
+      "matchedKeywords": [
+        "入职"
+      ],
+      "reasoning": "检测到关键词 入职，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T09:59:15.519Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "张三",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": ""
+      },
+      "missingFields": [],
+      "completionRate": 88
+    },
+    "userFeedback": [],
+    "backendFeedback": [],
+    "schemaFinal": {
+      "employeeName": "张三",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": ""
+    },
+    "createdAt": "2026-03-15T09:59:15.519Z",
+    "updatedAt": "2026-03-15T09:59:15.519Z"
+  },
+  {
+    "id": "task-seed-001",
+    "request": "请帮我办理员工入职：姓名张三，证件号110101199003074560，入职日期2026-03-18，部门财务中心，办公地深圳，直属经理王敏，邮箱zhangsan@company.com，需要笔记本和门禁。",
+    "scenarioId": "entry_scene",
+    "scenarioName": "员工入职办理",
+    "status": "awaiting_user",
+    "planning": {
+      "confidence": 0.94,
+      "matchedKeywords": [
+        "入职",
+        "新员工"
+      ],
+      "reasoning": "检测到关键词 入职 / 新员工，路由到 员工入职办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.3.0",
+      "knowledgeRefs": [
+        "入职办理规范",
+        "账号与设备开通手册",
+        "办公地容量约束"
+      ],
+      "retrievedAt": "2026-03-15T07:50:00.000Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "employeeName": "张三",
+        "idCard": "110101199003074560",
+        "startDate": "2026-03-18",
+        "department": "财务中心",
+        "location": "深圳",
+        "manager": "王敏",
+        "email": "zhangsan@company.com",
+        "equipmentNeeded": "笔记本和门禁"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [
+      {
+        "id": "uf-seed-1",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-15T08:00:00.000Z"
+      }
+    ],
+    "backendFeedback": [
+      {
+        "id": "bf-seed-1",
+        "source": "backend",
+        "status": "needs_attention",
+        "message": "身份唯一性校验未通过：证件号尾号命中了重复样本库，请人工复核或改用新员工证件号。",
+        "createdAt": "2026-03-15T08:05:00.000Z"
+      }
+    ],
+    "schemaFinal": {
+      "employeeName": "张三",
+      "idCard": "110101199003074560",
+      "startDate": "2026-03-18",
+      "department": "财务中心",
+      "location": "深圳",
+      "manager": "王敏",
+      "email": "zhangsan@company.com",
+      "equipmentNeeded": "笔记本和门禁"
+    },
+    "createdAt": "2026-03-15T07:50:00.000Z",
+    "updatedAt": "2026-03-15T08:05:00.000Z"
+  },
+  {
+    "id": "task-seed-002",
+    "request": "帮我发起采购申请，主题是为设计团队采购显示器，申请人王青，预算48000元，供应商星海科技，期望到货日期2026-03-28。",
+    "scenarioId": "procurement_scene",
+    "scenarioName": "采购申请办理",
+    "status": "completed",
+    "planning": {
+      "confidence": 0.91,
+      "matchedKeywords": [
+        "采购",
+        "供应商"
+      ],
+      "reasoning": "检测到关键词 采购 / 供应商，路由到 采购申请办理。"
+    },
+    "retrieval": {
+      "schemaVersion": "v1.2.0",
+      "knowledgeRefs": [
+        "供应商合规名录",
+        "预算控制手册"
+      ],
+      "retrievedAt": "2026-03-14T06:20:00.000Z"
+    },
+    "extraction": {
+      "schemaDraft": {
+        "requestTitle": "为设计团队采购显示器",
+        "applicantName": "王青",
+        "budget": "48000",
+        "vendorName": "星海科技",
+        "deliveryDate": "2026-03-28"
+      },
+      "missingFields": [],
+      "completionRate": 100
+    },
+    "userFeedback": [
+      {
+        "id": "uf-seed-2",
+        "source": "user",
+        "status": "accepted",
+        "message": "用户确认结构化结果无误，任务进入后端校验阶段。",
+        "createdAt": "2026-03-14T06:30:00.000Z"
+      }
+    ],
+    "backendFeedback": [
+      {
+        "id": "bf-seed-2",
+        "source": "backend",
+        "status": "passed",
+        "message": "后端校验通过：字段完整、规则合法，可直接提交业务系统。",
+        "createdAt": "2026-03-14T06:35:00.000Z"
+      }
+    ],
+    "schemaFinal": {
+      "requestTitle": "为设计团队采购显示器",
+      "applicantName": "王青",
+      "budget": "48000",
+      "vendorName": "星海科技",
+      "deliveryDate": "2026-03-28"
+    },
+    "createdAt": "2026-03-14T06:20:00.000Z",
+    "updatedAt": "2026-03-14T06:35:00.000Z"
+  }
+]

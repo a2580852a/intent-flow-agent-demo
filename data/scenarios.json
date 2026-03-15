@@ -1,0 +1,125 @@
+[
+  {
+    "id": "用户location信息使用_scene",
+    "name": "用户Location信息使用",
+    "category": "业务需求",
+    "description": "用于业务方提需，申请使用用户Location信息",
+    "keywords": [
+      "用户Location信息使用",
+      "业务需求",
+      "location",
+      "Location信息",
+      "位置信息",
+      "位置数据",
+      "用户定位",
+      "定位权限",
+      "location权限",
+      "location授权",
+      "法务审批",
+      "legal单",
+      "Legal Ticket",
+      "合规审批",
+      "需求文档",
+      "PRD",
+      "prd",
+      "技术方案",
+      "Tech Design",
+      "ERD"
+    ],
+    "schemaVersion": "v1.0.0",
+    "schema": [
+      {
+        "id": "requirementName",
+        "label": "需求名称",
+        "type": "text",
+        "required": true,
+        "description": "需求的完整名称，包含中英文描述。",
+        "extractionHints": [
+          "需求名称",
+          "requirement_name",
+          "需求标题"
+        ],
+        "placeholder": "例如：Add location information authorization on the host side // 主播侧新增位置信息授权"
+      },
+      {
+        "id": "owners",
+        "label": "负责人",
+        "type": "text",
+        "required": true,
+        "description": "需求的负责人列表，多个负责人用逗号分隔。",
+        "extractionHints": [
+          "负责人",
+          "owners",
+          "责任人"
+        ],
+        "placeholder": "例如：joshua.chan01"
+      },
+      {
+        "id": "scene",
+        "label": "业务场景",
+        "type": "text",
+        "required": true,
+        "description": "需求对应的业务场景名称。",
+        "extractionHints": [
+          "场景",
+          "scene",
+          "业务场景"
+        ],
+        "placeholder": "例如：Nearby Live"
+      },
+      {
+        "id": "legal_ticket",
+        "label": "legal单",
+        "type": "text",
+        "required": true,
+        "description": "需求对应法务审批单",
+        "extractionHints": [
+          "Legal Ticket"
+        ],
+        "placeholder": "例如：https://legal.xxxx.com/detail?id=xxx"
+      },
+      {
+        "id": "prd_link",
+        "label": "需求文档",
+        "type": "text",
+        "required": true,
+        "description": "需求文档",
+        "extractionHints": [
+          "需求",
+          "PRD",
+          "prd"
+        ],
+        "placeholder": "例如：https://xxx.xxx.com/docx/xxx"
+      },
+      {
+        "id": "tech_document_link",
+        "label": "技术方案文档",
+        "type": "text",
+        "required": false,
+        "description": "技术方案文档",
+        "extractionHints": [
+          "ERD",
+          "Tech Design",
+          "技术方案"
+        ],
+        "placeholder": "例如：https://xxx.xxx.xxx.com/docx/xxx"
+      }
+    ],
+    "knowledgeRefs": [
+      {
+        "id": "default-playbook",
+        "title": "location",
+        "summary": "用于快速落地新需求的执行模版。"
+      }
+    ],
+    "backendChecks": [
+      {
+        "id": "basic_integrity",
+        "label": "基础合法性校验",
+        "severity": "warning",
+        "description": "检查必填字段与基础约束。"
+      }
+    ],
+    "updatedAt": "2026-03-15T11:50:21.076Z"
+  }
+]
